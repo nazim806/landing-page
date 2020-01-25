@@ -42,7 +42,7 @@ li {
 }
 
 a:hover {
-  background-color: yellow;
+  background-color: white;
 }
 
 @media (max-width: 700px) {
