@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 5px;
+  margin: 2px;
   padding: 1px;
 }
 
@@ -16,12 +16,12 @@ body {
 }
 
 #time {
-  font-size: 50px;
+  font-size: 32px;
   color: burlywood;
 }
 
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 h2 {
@@ -32,12 +32,12 @@ h2 {
 li {
   list-style-type: none;
   /*this removes the bullet point from list*/
-  padding: 10px;
+  padding: 5px;
 
 }
 
 #time {
-  font-size: 50px;
+  font-size: 32px;
   color: burlywood;
 }
 
@@ -47,6 +47,6 @@ a:hover {
 
 @media (max-width: 700px) {
   #time {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
