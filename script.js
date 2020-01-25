@@ -41,17 +41,17 @@ function setBgGreet() {
   if (hour < 12) {
     // Morning
     document.body.style.backgroundImage =
-      "url('https://i.ibb.co/7vDLJFb/morning.jpg')";
+      "url('https://www.vmcdn.ca/f/files/moosejawtoday/images/weather/morning-sunrise-near-mj.jpg;w=960')";
     greeting.textContent = "Good Morning, ";
   } else if (hour < 18) {
     // Afternoon
     document.body.style.backgroundImage =
-      "url('https://i.ibb.co/3mThcXc/afternoon.jpg')";
+      "url('https://images.unsplash.com/photo-1500685435882-18a12a75540c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')";
     greeting.textContent = "Good Afternoon, ";
   } else {
     // Evening
     document.body.style.backgroundImage =
-      "url('https://i.ibb.co/924T2Wv/night.jpg')";
+      "url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Sunset_in_Coquitlam.jpg')";
     greeting.textContent = "Good Evening, ";
     document.body.style.color = "white";
   }
