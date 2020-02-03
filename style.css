@@ -13,6 +13,7 @@ body {
   text-align: center;
   height: 100vh;
   color: black;
+  background-image: auto;
 }
 
 #time {
@@ -35,6 +36,8 @@ li {
   padding: 5px;
 
 }
+
+
 
 #time {
   font-size: 32px;
