@@ -51,7 +51,7 @@ function setBgGreet() {
   } else {
     // Evening
     document.body.style.backgroundImage =
-      "url('https://images.unsplash.com/photo-1511553677255-ba939e5537e0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9')";
+      "url('https://wallup.net/wp-content/uploads/2016/01/314098-landscape-evening-lake-water.jpg')";
     greeting.textContent = "Good Evening, ";
     document.body.style.color = "white";
   }
