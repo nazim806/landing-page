@@ -42,25 +42,25 @@ function setBgGreet() {
     // Morning
     document.body.style.backgroundImage =
       "url('https://live.staticflickr.com/7147/6459990459_87558c903a_b.jpg')";
-    greeting.textContent = "Good Morning, ";
+    greeting.textContent = "Good Morning! ";
   } else if (hour < 18) {
     // Afternoon
     document.body.style.backgroundImage =
       "url('https://images.unsplash.com/photo-1500685435882-18a12a75540c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=auto')";
-    greeting.textContent = "Good Afternoon, ";
+    greeting.textContent = "Good Afternoon! ";
   } else {
     // Evening
     document.body.style.backgroundImage =
       "url('https://wallup.net/wp-content/uploads/2016/01/314098-landscape-evening-lake-water.jpg')";
-    greeting.textContent = "Good Evening, ";
+    greeting.textContent = "Good Evening! ";
     document.body.style.color = "white";
   }
 }
 
-// Get Name
+//Get Name
 function getName() {
   if (localStorage.getItem("name") === null) {
-    name.textContent = "[Enter Name]";
+    name.textContent = "Hi There!";
   } else {
     name.textContent = localStorage.getItem("name");
   }
