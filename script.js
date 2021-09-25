@@ -41,7 +41,7 @@ function setBgGreet() {
   if (hour < 12) {
     // Morning
     document.body.style.backgroundImage =
-      "url('https://images.unsplash.com/photo-1546587348-d12660c30c50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80')";
+      "url('https://images.unsplash.com/photo-1516362494095-89c6e27d4428?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80')";
     greeting.textContent = "Good Morning! ";
   } else if (hour < 18) {
     // Afternoon
