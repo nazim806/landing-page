@@ -41,17 +41,17 @@ function setBgGreet() {
   if (hour < 12) {
     // Morning
     document.body.style.backgroundImage =
-      "url('https://live.staticflickr.com/7147/6459990459_87558c903a_b.jpg')";
+      "url('https://images.unsplash.com/photo-1546587348-d12660c30c50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80')";
     greeting.textContent = "Good Morning! ";
   } else if (hour < 18) {
     // Afternoon
     document.body.style.backgroundImage =
-      "url('https://images.unsplash.com/photo-1500685435882-18a12a75540c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=auto')";
+      "url('https://images.unsplash.com/photo-1603029261280-1f3175658ea7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80')";
     greeting.textContent = "Good Afternoon! ";
   } else {
     // Evening
     document.body.style.backgroundImage =
-      "url('https://wallup.net/wp-content/uploads/2016/01/314098-landscape-evening-lake-water.jpg')";
+      "url('https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80')";
     greeting.textContent = "Good Evening! ";
     document.body.style.color = "white";
   }
